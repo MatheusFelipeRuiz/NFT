@@ -1,3 +1,4 @@
+
 @media (max-width: 380px) {
     .container {
         .card {
@@ -14,7 +15,7 @@
 
 }
 
-@media (min-width: 380px)  and (orientation: landscape) {
+@media (max-height: 510px) and (orientation: landscape)   {
 
     
     .container {
