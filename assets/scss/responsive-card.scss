@@ -1,0 +1,15 @@
+@media (max-width: 380px) {
+    .container {
+        .card {
+            width: 250px;
+            height: 530px;
+            figcaption {
+                width: 200px;
+                img {
+                    width: 200px;
+                }                
+            }
+        }
+    }
+
+}
