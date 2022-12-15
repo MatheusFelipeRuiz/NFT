@@ -13,3 +13,24 @@
     }
 
 }
+
+@media (min-width: 380px)  and (orientation: landscape) {
+
+    
+    .container {
+        
+        .card {
+            display: flex;
+            flex-direction: row;
+            width: 580px;
+            height: 330px;
+            figcaption {
+                width: 200px;
+                img {
+                    width: 200px;
+                }                
+            }
+
+        }
+    }
+}
