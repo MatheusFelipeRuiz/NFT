@@ -5,17 +5,17 @@
     align-items: center;
     width: 850px;
     .card {
-        background-color: #023059;
+        background-color: $cor-card;
         border-radius: 20px;
         width: 350px;
         height: 500px;
         transition: all 0.2s ease-in-out;
         &:hover {
-            box-shadow: 1px 1px 5px hsl(178, 100%, 50%);
+            box-shadow: 1px 1px 5px $cor-secundaria;
             border-radius: 20px;  
         }
         figcaption {
-            background-color: hsl(178, 100%, 50%);
+            background-color: $cor-secundaria;
             width: 300px;
             margin: 10px 25px;
             height: 300px;
@@ -46,7 +46,7 @@
                 color:white;
                 &:hover {
                     cursor:pointer;
-                    color: hsl(178, 100%, 50%);
+                    color: $cor-secundaria;
                 }
             }
             p {
@@ -62,12 +62,13 @@
             
             .container-ethereum {
                p {
-                    color: hsl(178, 100%, 50%);
+                    color: $cor-secundaria;
                 }
             }
 
             .container-usuario {
-                border-top: 2px solid hsl(215, 32%, 27%);
+                width: 300px;
+                border-top: 2px solid $cor-bfoot-card;
                 p {
                     display: flex;
                     align-items: center;
@@ -83,7 +84,7 @@
                         text-indent: 5px;
                         text-decoration: none;
                         &:hover {
-                            color: hsl(178, 100%, 50%);
+                            color: $cor-secundaria;
                         }
                     }
                 }
