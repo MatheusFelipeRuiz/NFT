@@ -37,7 +37,9 @@
             flex-wrap:wrap;
             
             .container-ethereum {
-                color: hsl(178, 100%, 50%);
+               p {
+                    color: hsl(178, 100%, 50%);
+                }
             }
 
             .container-usuario {
@@ -45,6 +47,8 @@
                 p {
                     display: flex;
                     align-items: center;
+                    text-indent: 5px;
+                    word-spacing: 5px;
                     img {
                         display: inline-block;
                         width: 35px;
@@ -52,7 +56,7 @@
 
                     a {
                         color: white;
-                        
+                        text-indent: 5px;
                         text-decoration: none;
                     }
                 }
