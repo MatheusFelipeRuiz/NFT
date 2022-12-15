@@ -7,15 +7,31 @@
     .card {
         background-color: #023059;
         border-radius: 20px;
-        width: 300px;
+        width: 350px;
         height: 500px;
         
         figcaption {
+            background-color: hsl(178, 100%, 50%);
+            width: 300px;
+            margin: 10px 25px;
+            height: 300px;
+            border-radius: 10px;            
             img {
-                width: 250px;
-                height: 250px;
-                margin: 20px 25px 0 25px;
+                width: 300px;
+                height: 300px;
                 border-radius: 10px;
+                &:hover {
+                    opacity: 0.15;
+                }
+            }
+   
+            &:hover {
+                cursor: pointer;
+                background-image: url('../img/icon/icon-view.svg');
+                background-size: 50px;
+                background-repeat: no-repeat;
+                background-position-x: 50%;
+                background-position-y: 50%;
             }
         }
 
@@ -24,6 +40,10 @@
             h1 {
                 font-size: 18px;
                 color:white;
+                &:hover {
+                    cursor:pointer;
+                    color: hsl(178, 100%, 50%);
+                }
             }
             p {
                 margin: 10px 0;
@@ -58,6 +78,9 @@
                         color: white;
                         text-indent: 5px;
                         text-decoration: none;
+                        &:hover {
+                            color: hsl(178, 100%, 50%);
+                        }
                     }
                 }
             }
