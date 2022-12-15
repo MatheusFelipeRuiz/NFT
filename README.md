@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
-- Live Site URL: [Add live site URL here](matheusfeliperuiz.github.io/NFT/)
+- Solution URL: [Click here](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
+- Live Site URL: [Click here](matheusfeliperuiz.github.io/NFT/)
 
 ## My process
 
