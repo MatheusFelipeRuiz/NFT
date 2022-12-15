@@ -9,7 +9,11 @@
         border-radius: 20px;
         width: 350px;
         height: 500px;
-        
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            box-shadow: 1px 1px 5px hsl(178, 100%, 50%);
+            border-radius: 20px;  
+        }
         figcaption {
             background-color: hsl(178, 100%, 50%);
             width: 300px;
